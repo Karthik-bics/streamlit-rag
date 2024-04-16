@@ -7,11 +7,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-st.set_page_config(page_title="Retrieval Augmented Generation", page_icon="🤖")
+st.set_page_config(page_title="RAG - URL", page_icon="🤖")
 st.title("Chat with URL")
 
 with st.sidebar:
-    st.header("Settings")
+    st.header("Enter URL to chat with")
     web_page_url = st.text_input("Please enter any webpage url")
     
 

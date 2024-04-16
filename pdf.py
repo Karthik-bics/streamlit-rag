@@ -8,11 +8,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-st.set_page_config(page_title="Retrieval Augmented Generation", page_icon="🤖")
+st.set_page_config(page_title="RAG - PDF", page_icon="🤖")
 st.title("Chat with PDF")
 
 with st.sidebar:
-    st.header("Settings")
+    st.header("Upload your PDF document to chat with")
     pdf = st.file_uploader("Please upload your PDF", type="pdf")
     
 
